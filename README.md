@@ -5,7 +5,7 @@
 
 ```LUA
 -- Sound Name (string)
--- Volume (integer)
+-- Volume (float) (between 0 and 1.0)
 exports["SoundPlayer"]:PlaySound("your_sound", 0.3)
 
 -- Stops all playing sounds
